@@ -3,3 +3,4 @@ Invoke-Command -ComputerName $comps -ScriptBlock { stop-process -Name firefox -F
 Invoke-Command -ComputerName $comps -ScriptBlock { stop-process -Name chrome -Force }
 Invoke-Command -ComputerName $comps -ScriptBlock { stop-process -Name MicrosoftEdgeCP -Force }
 Invoke-Command -ComputerName $comps -ScriptBlock { stop-process -Name iexplore -Force }
+Invoke-Command -ComputerName $comps -ScriptBlock { stop-process -Name browser -Force }
